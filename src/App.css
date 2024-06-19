@@ -1,0 +1,46 @@
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+header input {
+  margin: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+header button {
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.movie-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.movie-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.movie-item img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
